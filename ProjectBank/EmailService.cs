@@ -1,0 +1,51 @@
+﻿using MailKit.Net.Smtp;
+using MimeKit;
+using System.Runtime.CompilerServices;
+
+namespace ProjectBank
+{
+    public static class EmailService
+    {
+
+        public static void SendMail()
+        {
+
+            var message = new MimeMessage();
+            message.From.Add(new MailboxAddress("Charlinson Perez", "charlinson2013@gmail.com"));
+            message.To.Add(new MailboxAddress("Charlinson Perez", "charlinson2013@gmail.com"));
+            message.Subject = "Project Bank: Listado de usuarios nuevos";
+
+            message.Body = new TextPart("plain")
+            {
+                Text = GetEmailText()
+            };
+
+            using (var client = new SmtpClient())
+            {
+                //Servidor gmail
+                client.Connect("smtp.gmail.com", 587, false);
+                client.Authenticate("charlinson2013@gmail.com", "");
+                client.Send(message);
+                client.Disconnect(true);
+            }
+
+        }
+
+        private static string GetEmailText()
+        {
+            List<User> newUsers = Storage.GetNewUsers();
+
+            if (newUsers.Count == 0)
+                return "No hay usuarios nuevos";
+
+            string emailText = "Usuarios agregados hoy:\n";
+
+            foreach (User user in newUsers)
+                emailText += "\t+" + user.ShowData() + "\n";
+
+            return emailText;
+        }
+
+    }
+
+}

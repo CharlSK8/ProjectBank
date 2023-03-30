@@ -1,6 +1,13 @@
 ﻿using ProjectBank;
 
-User User1 = new(1, "Carlos Andres", "carlos@gmail.com", 1000);
-Console.WriteLine(User1.ShowData());
-Console.WriteLine(User1.ShowData("Infomacion"));
-Storage.AddUser(User1);
+Client Carlos = new(1, "Carlos", "carlos@gmail.com", 50000, 'M');
+Storage.AddUser(Carlos);
+Console.WriteLine(Carlos.ShowData());
+/*
+if (args.Length == 0)
+    EmailService.SendMail();
+else
+    foreach (var item in args)
+    {
+        Console.WriteLine(item);
+    }*/

@@ -8,7 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+    <PackageReference Include="MailKit" Version="3.6.0" />
+    <PackageReference Include="MimeKit" Version="3.6.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Portable.BouncyCastle" Version="1.9.0" />
+    <PackageReference Include="System.Formats.Asn1" Version="8.0.0-preview.2.23128.3" />
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="7.0.0-preview.2.22152.2" />
+    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="8.0.0-preview.2.23128.3" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="8.0.0-preview.2.23128.3" />
   </ItemGroup>
 
 </Project>

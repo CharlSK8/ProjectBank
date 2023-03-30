@@ -15,3 +15,12 @@ C:\C#\ProjectBank\ProjectBank\obj\Debug\net6.0\ProjectBank.genruntimeconfig.cach
 C:\C#\ProjectBank\ProjectBank\obj\Debug\net6.0\ref\ProjectBank.dll
 C:\C#\ProjectBank\ProjectBank\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\C#\ProjectBank\ProjectBank\obj\Debug\net6.0\ProjectBank.csproj.CopyComplete
+C:\C#\ProjectBank\ProjectBank\bin\Debug\net6.0\MailKit.dll
+C:\C#\ProjectBank\ProjectBank\bin\Debug\net6.0\MimeKit.dll
+C:\C#\ProjectBank\ProjectBank\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\C#\ProjectBank\ProjectBank\bin\Debug\net6.0\System.Formats.Asn1.dll
+C:\C#\ProjectBank\ProjectBank\bin\Debug\net6.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\C#\ProjectBank\ProjectBank\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\C#\ProjectBank\ProjectBank\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+C:\C#\ProjectBank\ProjectBank\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\C#\ProjectBank\ProjectBank\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll

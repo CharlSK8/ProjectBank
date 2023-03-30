@@ -1,1 +1,48 @@
-{"Id":1,"Name":"Carlos Andres","Email":"carlos@gmail.com","Balance":1000.0,"RegisterDate":"2023-03-29T11:46:57.7487729-05:00"}
+[
+  {
+    "Id": 1,
+    "Name": "Carlos Andres",
+    "Email": "carlos@gmail.com",
+    "Balance": 0.0,
+    "RegisterDate": "2023-03-29T16:36:32.3522641-05:00"
+  },
+  {
+    "Id": 2,
+    "Name": "Maria Perez",
+    "Email": "marias@gmail.com",
+    "Balance": 0.0,
+    "RegisterDate": "2023-03-29T16:36:32.3723786-05:00"
+  },
+  {
+    "TaxRegime": "M",
+    "Id": 3,
+    "Name": "Marina Perez",
+    "Email": "marina@gmail.com",
+    "Balance": 0.0,
+    "RegisterDate": "2023-03-29T16:36:32.3725183-05:00"
+  },
+  {
+    "Departament": "TI",
+    "Id": 4,
+    "Name": "Victo de Jesus",
+    "Email": "victor@gmail.com",
+    "Balance": 0.0,
+    "RegisterDate": "2023-03-29T16:36:32.3734684-05:00"
+  },
+  {
+    "TaxRegime": "M",
+    "Id": 1,
+    "Name": "Carlos",
+    "Email": "carlos@gmail.com",
+    "Balance": 0.0,
+    "RegisterDate": "2023-03-30T16:15:59.9177529-05:00"
+  },
+  {
+    "TaxRegime": "M",
+    "Id": 1,
+    "Name": "Carlos",
+    "Email": "carlos@gmail.com",
+    "Balance": 0.00,
+    "RegisterDate": "2023-03-30T16:59:53.9747168-05:00"
+  }
+]
